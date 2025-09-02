@@ -1,1 +1,13 @@
-# Empty CSS file for your own CSS
+body { background: #f7f8fa; }
+
+.kpi .kpi-title {
+  font-size: .9rem;
+  color: #6c757d;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+
+.kpi .kpi-value {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
