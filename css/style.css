@@ -1,8 +1,5 @@
-body { 
-  background: #f7f8fa; 
-}
+body { background: #f7f8fa; }
 
-/* KPIs */
 .kpi .kpi-title {
   font-size: .9rem;
   color: #6c7d70;
@@ -13,27 +10,4 @@ body {
 .kpi .kpi-value {
   font-size: 1.6rem;
   font-weight: 700;
-}
-
-/* -------- Tamaño de la gráfica --------
-   Ajusta width/height a tu gusto.
-   Con !important forzamos el tamaño del canvas. */
-.chart-box{
-  position: relative;
-  width: 320px;    /* ANCHO deseado */
-  height: 160px;   /* ALTO deseado  */
-  margin: 0 auto;  /* centrar */
-}
-
-.chart-box canvas{
-  width: 100% !important;
-  height: 100% !important;
-}
-
-/* Opcional: aún más compacto en móviles */
-@media (max-width: 576px){
-  .chart-box{
-    width: 260px;
-    height: 140px;
-  }
 }
